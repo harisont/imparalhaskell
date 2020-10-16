@@ -39,7 +39,7 @@ maximum' [x] = x
 maximum' (x:xs) = max x (maximum' xs)
 
 mininum' [] = error "empty list"
-maximum' [x] = x
+minimum' [x] = x
 minimum' (x:xs) = min x (minimum' xs)
 
 sum' [] = 0
