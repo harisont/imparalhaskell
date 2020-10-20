@@ -70,14 +70,14 @@ product' :: [Int] -> Int
 product' [] = 1
 product' (x:xs) = x * product' xs
 
+{- Da qui in poi, tutto normale -}
+
 -- tuple
 fst' :: (a, b) -> a
 fst' (a,_) = a
 
 snd' :: (a, b) -> b
 snd' (_,b) = b
-
-{- Da qui in poi, tutto normale -}
 
 -- liste & tuple
 zip' :: [a] -> [b] -> [(a,b)]
